@@ -62,3 +62,31 @@
 .article img {
   border-radius: 8px;
 }
+
+/* Article summary */
+
+.article--summary {
+  background-color: var(--gray-100);
+}
+
+.article--summary__header {
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.article--summary__content {
+  display: grid;
+  /* repeat(#_de_veces, tamano_column) */
+  /* grid-template-columns: repeat(2, 1fr);  */
+
+  /* repeat(#_de_veces, tamano_column) */
+  /* grid-template-columns: repeat(auto-fill, 400PX);  */
+
+  /* minmax => minimo un size / maximo un size */
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap: 2rem;
+}
+
+.article--card {
+  padding: 1rem;
+}
