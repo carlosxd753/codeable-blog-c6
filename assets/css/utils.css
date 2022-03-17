@@ -1,0 +1,24 @@
+.w-full {
+  width: 100%;
+}
+
+.regular {
+  font-weight: 500;
+}
+
+.medium {
+  font-weight: 600;
+}
+
+.semibold {
+  font-weight: 700;
+}
+
+.overline {
+  letter-spacing: 0.125rem;
+  transform: uppercase;
+}
+
+.mono {
+  font-family: "Anonymous Pro", monospace;
+}
