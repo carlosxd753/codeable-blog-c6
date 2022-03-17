@@ -30,3 +30,7 @@
 .text-decoration-none {
   text-decoration: none;
 }
+
+.text-white {
+  color: var(--white)
+}
