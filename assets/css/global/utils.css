@@ -3,15 +3,15 @@
 }
 
 .regular {
-  font-weight: 500;
+  font-weight: 400;
 }
 
 .medium {
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .semibold {
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .overline {
@@ -33,4 +33,12 @@
 
 .text-white {
   color: var(--white)
+}
+
+.pink-600 {
+  color: var(--pink-600);
+}
+
+.mb-1 {
+  margin-bottom: 1rem;
 }
